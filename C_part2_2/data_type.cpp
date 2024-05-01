@@ -1,4 +1,6 @@
-#include <stdio.h>
+/* 자료형별 크기 */
+#include <stdio.h> // 표준입출력 헤더 파일 추가
+/* main() 함수 */
 void main() {
 	printf("char 자료형 크기 : %d byte byte\n", sizeof(char));
 	printf("signed char 자료형 크기 : %d byte\n", sizeof(signed char));
