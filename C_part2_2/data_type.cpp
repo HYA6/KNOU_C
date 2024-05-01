@@ -1,5 +1,5 @@
 #include <stdio.h>
-void main() { 
+void main() {
 	printf("char 자료형 크기 : %d byte byte\n", sizeof(char));
 	printf("signed char 자료형 크기 : %d byte\n", sizeof(signed char));
 	printf("unsigned char 자료형 크기 : %d byte\n", sizeof(unsigned char));
