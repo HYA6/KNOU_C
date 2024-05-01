@@ -1,11 +1,11 @@
 /*
-	¿¹Á¦ : Hello Ãâ·ÂÇÏ±â
-	ÆÄÀÏ ÀÌ¸§ Hello.c
-	¼öÁ¤ ÀÏÀÚ : 2024³â 4¿ù 18ÀÏ
-	ÀÛ¼ºÀÚ : ÀÌÇÏ¿µ
+	ì˜ˆì œ : Hello ì¶œë ¥í•˜ê¸°
+	íŒŒì¼ ì´ë¦„ : Hello.c
+	ìˆ˜ì • ì¼ìž : 2024ë…„ 4ì›” 18ì¼
+	ìž‘ì„±ìž : ì´í•˜ì˜
 */
 
-#include<stdio.h>			// Çì´õ ÆÄÀÏ Ãß°¡
-void main() {				// main ÇÔ¼ö ½ÃÀÛ
-	printf("Hello~ \n");	// ¸ð´ÏÅÍ¿¡ ¹®ÀÚ¿­ Ãâ·Â
-}							// main ÇÔ¼ö ³¡
+#include<stdio.h>			// í—¤ë” íŒŒì¼ ì¶”ê°€
+void main() {				// main í•¨ìˆ˜ ì‹œìž‘
+	printf("Hello~ \n");	// ëª¨ë‹ˆí„°ì— ë¬¸ìžì—´ ì¶œë ¥
+}							// main í•¨ìˆ˜ ë

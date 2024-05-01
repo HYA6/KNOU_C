@@ -4,7 +4,7 @@ void main()
 {
 	int in_money, coin_500, coin_100, coin_50, coin_10;
 
-	printf("µ¿ÀüÀ¸·Î ±³È¯ÇÒ ±Ý¾×Àº? : ");
+	printf("ë™ì „ìœ¼ë¡œ êµí™˜í•  ê¸ˆì•¡ì€? : ");
 	scanf("%d", &in_money);
 
 	coin_500 = in_money / 500;
@@ -19,9 +19,9 @@ void main()
 	coin_10 = in_money / 10;
 	in_money %= 10;
 
-	printf("\n ¿À¹é ¿øÂ¥¸® => %d °³ \n", coin_500);
-	printf(" ¹é ¿øÂ¥¸® => %d °³ \n", coin_100);
-	printf(" ¿À½Ê ¿øÂ¥¸® => %d °³ \n", coin_50);
-	printf(" ½Ê ¿øÂ¥¸® => %d °³ \n", coin_10);
-	printf(" ¹Ù²ÙÁö ¸øÇÑ ÀÜµ· => %d °³ \n", in_money);
+	printf("\n ì˜¤ë°± ì›ì§œë¦¬ => %d ê°œ \n", coin_500);
+	printf(" ë°± ì›ì§œë¦¬ => %d ê°œ \n", coin_100);
+	printf(" ì˜¤ì‹­ ì›ì§œë¦¬ => %d ê°œ \n", coin_50);
+	printf(" ì‹­ ì›ì§œë¦¬ => %d ê°œ \n", coin_10);
+	printf(" ë°”ê¾¸ì§€ ëª»í•œ ìž”ëˆ => %d ê°œ \n", in_money);
 }

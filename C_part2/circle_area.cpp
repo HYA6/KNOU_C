@@ -1,12 +1,12 @@
 #include<stdio.h>
-#define IN "¿øÀÇ ¹İÁö¸§Àº 100ÀÔ´Ï´Ù. \n"
+#define IN "ì›ì˜ ë°˜ì§€ë¦„ì€ 100ì…ë‹ˆë‹¤. \n"
 #define PI 3.1415926535
 #define AREA(X) (PI*(X)*(X))
-#define OUT printf("¿øÀÇ ¸éÀûÀ» ±¸ÇÏ°í ÇÁ·Î±×·¥À» Á¾·áÇÕ´Ï´Ù. \n")
+#define OUT printf("ì›ì˜ ë©´ì ì„ êµ¬í•˜ê³  í”„ë¡œê·¸ë¨ì„ ì¢…ë£Œí•©ë‹ˆë‹¤. \n")
 
 void main()
 {
 	printf("%s \n", IN);
-	printf("¿øÀÇ ¸éÀûÀº %10.5fÀÔ´Ï´Ù. \n\n", AREA(100));
+	printf("ì›ì˜ ë©´ì ì€ %10.5fì…ë‹ˆë‹¤. \n\n", AREA(100));
 	OUT;
 }

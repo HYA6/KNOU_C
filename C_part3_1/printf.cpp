@@ -4,10 +4,10 @@ void main() {
 	int i = 873;
 	float f = 123.4567;
 	char s[] = "Happy birthday";
-	printf("Á¤¼öÇü ÀÚ·áÀÇ Ãâ·Â \n");
+	printf("ì •ìˆ˜í˜• ìë£Œì˜ ì¶œë ¥ \n");
 	printf("\t %04d \n \t %09d \n\n", i, i);
-	printf("½Ç¼öÇü ÀÚ·áÀÇ Ãâ·Â \n");
+	printf("ì‹¤ìˆ˜í˜• ìë£Œì˜ ì¶œë ¥ \n");
 	printf("\t %.3f \n \t %.3e \n\n", f, f);
-	printf("¹®ÀÚ¿­ ÀÚ·áÀÇ Ãâ·Â \n");
+	printf("ë¬¸ìì—´ ìë£Œì˜ ì¶œë ¥ \n");
 	printf("\t %.11s \n", s);
 }

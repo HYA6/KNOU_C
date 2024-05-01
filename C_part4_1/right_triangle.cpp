@@ -1,17 +1,17 @@
 /*
-	Á¤¼ö nÀ» ÀÔ·Â¹Þ¾Æ nº¸´Ù ÀÛÀº Á¤¼öº¯À» °®´Â Á÷°¢»ï°¢ÇüÀ» ¸ðµÎ ±¸ÇÏ´Â ÇÁ·Î±×·¥À» ÀÛ¼ºÇÏ½Ã¿À.
-	Á÷°¢»ï°¢ÇüÀÇ ¼º¸³ Á¶°ÇÀº ÇÇÅ¸°í¶ó½ºÀÇ Á¤¸®¿¡ ÀÇÇØ a©÷ = b©÷ + c©÷ (´Ü, a´Â ºøº¯)
-	ÀÛ¼º ÀÏ½Ã: 2024.04.20
+	ì •ìˆ˜ nì„ ìž…ë ¥ë°›ì•„ në³´ë‹¤ ìž‘ì€ ì •ìˆ˜ë³€ì„ ê°–ëŠ” ì§ê°ì‚¼ê°í˜•ì„ ëª¨ë‘ êµ¬í•˜ëŠ” í”„ë¡œê·¸ëž¨ì„ ìž‘ì„±í•˜ì‹œì˜¤.
+	ì§ê°ì‚¼ê°í˜•ì˜ ì„±ë¦½ ì¡°ê±´ì€ í”¼íƒ€ê³ ë¼ìŠ¤ì˜ ì •ë¦¬ì— ì˜í•´ aÂ² = bÂ² + cÂ² (ë‹¨, aëŠ” ë¹—ë³€)
+	ìž‘ì„± ì¼ì‹œ: 2024.04.20
 */
 #include <stdio.h>
 #include <math.h>
 #pragma warning(disable:4996)
 void main() {
 	int a, b, c, n;
-	printf("Á¤¼ö nÀ» ÀÔ·ÂÇÏ½Ã¿À : ");
+	printf("ì •ìˆ˜ nì„ ìž…ë ¥í•˜ì‹œì˜¤ : ");
 	scanf("%d", &n);
 	printf("----------------------- \n");
-	printf("ºøº¯	¹Øº¯	³ôÀÌ \n");
+	printf("ë¹—ë³€	ë°‘ë³€	ë†’ì´ \n");
 	printf("----------------------- \n");
 	for (a = n; a > 0; a--) {
 		for (b = n; b > 0; b--) {

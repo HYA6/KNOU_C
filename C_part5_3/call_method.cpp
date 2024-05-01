@@ -1,36 +1,36 @@
 /*
-	°ª¿¡ ÀÇÇÑ ÀÚ·á Àü´Ş ¹æ¹ı°ú ÂüÁ¶¿¡ ÀÇÇÑ ÀÚ·á Àü´Ş ¹æ¹ıÀÇ Â÷ÀÌÁ¡
-	ÀÛ¼º ÀÏÀÚ : 2024.04.24
+	ê°’ì— ì˜í•œ ìë£Œ ì „ë‹¬ ë°©ë²•ê³¼ ì°¸ì¡°ì— ì˜í•œ ìë£Œ ì „ë‹¬ ë°©ë²•ì˜ ì°¨ì´ì 
+	ì‘ì„± ì¼ì : 2024.04.24
 */
 #include <stdio.h>
-void by_value(int a, int b, int c); // °ª¿¡ ÀÇÇÑ ÀÚ·á Àü´Ş ¹æ¹ı
-void by_ref(int* a, int* b, int* c); // Æ÷ÀÎÅÍ º¯¼ö¸¦ ÀÌ¿ë, ÂüÁ¶¿¡ ÀÇÇÑ ÀÚ·á Àü´Ş ¹æ¹ı
+void by_value(int a, int b, int c); // ê°’ì— ì˜í•œ ìë£Œ ì „ë‹¬ ë°©ë²•
+void by_ref(int* a, int* b, int* c); // í¬ì¸í„° ë³€ìˆ˜ë¥¼ ì´ìš©, ì°¸ì¡°ì— ì˜í•œ ìë£Œ ì „ë‹¬ ë°©ë²•
 void main() {
 	int x = 2, y = 4, z = 6;
-	// ¿ø·¡ °ª
+	// ì›ë˜ ê°’
 	printf("Before calling by_value() \t: ");
 	printf("x = %d, y = %d, z = %d \n", x, y, z);
 
-	// °ª¿¡ ÀÇÇÑ ÀÚ·á Àü´Ş
+	// ê°’ì— ì˜í•œ ìë£Œ ì „ë‹¬
 	by_value(x, y, z);
 	printf("After calling by_value() \t: ");
 	printf("x = %d, y = %d, z = %d \n", x, y, z);
 
-	// ÂüÁ¶¿¡ ÀÇÇÑ ÀÚ·á Àü´Ş
+	// ì°¸ì¡°ì— ì˜í•œ ìë£Œ ì „ë‹¬
 	by_ref(&x, &y, &z);
 	printf("After calling by_ref() \t\t: ");
 	printf("x = %d, y = %d, z = %d \n", x, y, z);
 }
 
-// °ª¿¡ ÀÇÇÑ ÀÚ·á Àü´Ş ÇÔ¼ö
+// ê°’ì— ì˜í•œ ìë£Œ ì „ë‹¬ í•¨ìˆ˜
 void by_value(int a, int b, int c) {
 	a = 0;
 	b = 0;
 	c = 0;
 }
 
-// ÂüÁ¶¿¡ ÀÇÇÑ ÀÚ·á Àü´Ş ÇÔ¼ö
-void by_ref(int *a, int *b, int *c) {
+// ì°¸ì¡°ì— ì˜í•œ ìë£Œ ì „ë‹¬ í•¨ìˆ˜
+void by_ref(int* a, int* b, int* c) {
 	*a = 0;
 	*b = 0;
 	*c = 0;
