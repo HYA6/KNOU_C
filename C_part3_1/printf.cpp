@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+ 
 void main() {
 	int i = 873;
 	float f = 123.4567;
