@@ -3,7 +3,7 @@
 	파일 이름 : multiplication.c
 	수정 일자 : 2024년 4월 18일
 	작성자 : 이하영
-*/
+*/ 
 
 #include<stdio.h>	// printf()와 scanf를 사용하기 위한 헤더 파일 포함
 #pragma warning(disable:4996)	// 권장하지 않는 함수 사용에 대한 경고 메시지 무시
