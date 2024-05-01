@@ -8,7 +8,7 @@ int product(int x, int y); // 사용자 함수(product 함수) 원형
 
 /* main() 함수 */
 void main() {
-	printf("Enter a number between 1 and 100 : "); // 첫 번째 수를 입력받는다.
+	printf("Enter a number between 1 and 100 : "); // 첫 번째 수를 입력받는다. 
 	scanf("%d", &a); // scanf 함수를 통해 첫 번째로 입력받은 정수를 변수 a에 저장
 
 	printf("Enter another number between 1 and 100 : "); // 두 번째 수를 입력받는다.
