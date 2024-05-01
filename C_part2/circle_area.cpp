@@ -1,5 +1,5 @@
 /* #define을 이용하여 원의 면적 구하는 프로그램 */
-#include<stdio.h> // 표준입출력 헤더 파일 추가
+#include<stdio.h> // 표준입출력 헤더 파일 추가 
 #define IN "원의 반지름은 100입니다. \n" // 매크로 상수 IN 정의 (원의 반지름)
 #define PI 3.1415926535 // 매크로 상수 PI 정의 (원주율)
 #define AREA(X) (PI*(X)*(X)) // 매크로 함수 AREA 정의 (원의 면적)
